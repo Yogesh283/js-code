@@ -1,0 +1,55 @@
+'<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yogesh and Dom </title>
+</head>
+<body style="background-color: black; color: white;">
+    <ul class="basha">
+        <li>javascript</li>
+        <li>php</li>
+
+    </ul>
+</body>
+<script>
+    function addlun(yogesh){
+        const li = document.createElement('li')
+li.innerHTML=`${yogesh}`
+document.querySelector('.basha').appendChild(li)
+
+    }
+    addlun("anil")
+    addlun("priynka")
+
+function add(head){
+    const li =document.createElement('li');
+    li.appendChild(document.createTextNode(head))
+document.querySelector('.basha').appendChild(li)
+}
+add('go')
+// eadit value 
+const name = document.querySelector('li:nth-child(2)');
+
+//nmae.innerHTML='heello'
+const aa = document.createElement('li');
+
+
+aa.textContent="moj";
+
+name.replaceWith(aa)
+console.log(name);
+
+
+//eadit
+
+const ram = document.querySelector('li:frist-child')
+ram.outerHTML='<li>topscript</li>'
+
+
+// remove
+const last = document.querySelector("li:lest-child");
+last.remove()
+
+</script>
+</html>
