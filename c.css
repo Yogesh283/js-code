@@ -1,0 +1,13 @@
+b {
+    display: inline-grid;
+    color: antiquewhite;
+    border: solid;
+    width: 34%;
+    height: 89px;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto
+}
+
+body{
+}
