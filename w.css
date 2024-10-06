@@ -1,0 +1,16 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url(clouds-summer-weather-5k-1b.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.card {
+    display: grid;
+    grid-template-columns: auto 44px;
+    align-items: center;
+}
+input[type="text"] { display: flex; height: 74%; width: 33%; border-radius: 9px;align-items: center;justify-content: center;}
+img {  height: 130px; margin-top: 100px; }
